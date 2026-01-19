@@ -7,6 +7,8 @@ exclude: []
 additional_packages: []
 flatpak_scope: user
 auto_prune: false
+module_processing: parallel
+strict_package_order: false
 config_backups:
   enabled: true
   max_backups: 5
@@ -17,7 +19,39 @@ system_backups:
   tool: snapper
   snapper_config: root
 services:
-  enabled: []
+  enabled:
+  - NetworkManager
+  - NetworkManager-dispatcher
+  - NetworkManager-wait-online
+  - avahi-daemon
+  - bluetooth
+  - cups
+  - docker
+  - getty@
+  - greetd
+  - nvidia-hibernate
+  - nvidia-resume
+  - nvidia-suspend
+  - proton.VPN
+  - swayosd-libinput-backend
+  - systemd-network-generator
+  - systemd-networkd-wait-online
+  - udevmon
   disabled: []
+update_hooks:
+  pre_update: null
+  post_update: null
+  behavior: ask
+default_apps:
+  scope: system
+  browser: brave-browser
+  text_editor: dev.zed.Zed-Preview
+  file_manager: kitty-open
+  terminal: null
+  video_player: mpv
+  audio_player: mpv
+  image_viewer: brave-browser
+  pdf_viewer: org.gnome.Evince
+  mime_types: {}
 editor: null
 aur_helper: yay

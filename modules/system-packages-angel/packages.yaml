@@ -1,0 +1,26 @@
+description: Packages installed manually on the system (auto-synced by dcli)
+packages:
+- adw-gtk-theme
+- btdu-bin
+- ddcci-driver-linux-dkms
+- difftastic
+- dua-cli
+- gdu
+- gum
+- jjui-bin
+- jujutsu
+- kubectl
+- networkmanager
+- podman
+- podman-compose
+- podman-desktop
+- swaybg
+- voxtype-bin
+- wlsunset
+exclude: []
+conflicts: []
+pre_install_hook: null
+post_install_hook: null
+hook_behavior: ask
+pre_hook_behavior: null
+post_hook_behavior: null
