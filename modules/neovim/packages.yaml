@@ -1,0 +1,4 @@
+description: Neovim packages
+
+packages:
+  - neovim-nightly-bin
