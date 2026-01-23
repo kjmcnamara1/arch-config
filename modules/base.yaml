@@ -22,14 +22,14 @@ packages:
   # Basic tools (uncomment as needed)
   - git
   # - vim
-  - neovim
+  # - neovim
   # - htop
   - age
   - bat
 
   # dcli dependencies
   # - paru         # AUR helper (required for AUR package management)
-  - yay-bin
+  # - yay-bin
   - fzf # Fuzzy finder (required for dcli search/module/backup TUI)
   # - timeshift    # System backup tool (required for dcli backup commands)
   - snapper
