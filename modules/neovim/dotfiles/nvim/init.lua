@@ -3,7 +3,7 @@ vim.g.maplocalleader = "\\"
 
 require("core.options")
 
-vim.pack.add("https://github.com/rmehri01/onenord.nvim")
+vim.pack.add({ "https://github.com/rmehri01/onenord.nvim" })
 require("onenord").setup(
   {
     styles = {
