@@ -21,6 +21,7 @@ packages:
 
   # Basic tools (uncomment as needed)
   - git
+  - chezmoi
   # - vim
   # - neovim
   # - htop
